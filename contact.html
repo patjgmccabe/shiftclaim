@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact &mdash; ShiftClaim</title>
-    <meta name="description" content="Get in touch to set up your custom ShiftClaim scheduling board. Most boards are live within a week.">
+    <title>Get Started &mdash; ShiftClaim</title>
+    <meta name="description" content="Fill out this form and get a free preview of your custom ShiftClaim scheduling board within 24 hours. No payment required until you approve.">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -32,9 +32,9 @@
     <!-- Page Hero -->
     <header class="page-hero">
         <div class="container">
-            <p class="hero-badge">Let's Build Yours</p>
-            <h1>Get in Touch</h1>
-            <p class="hero-subtitle">Tell us a little about your business and we'll reach out to set up a quick call.</p>
+            <p class="hero-badge">Free Preview &mdash; No Commitment</p>
+            <h1>Get Your Free Preview</h1>
+            <p class="hero-subtitle">Tell us about your business and we'll build you a custom preview board within 24 hours &mdash; completely free.</p>
         </div>
     </header>
 
@@ -55,8 +55,9 @@
                             <input type="email" id="email" name="email" required placeholder="john@company.com">
                         </div>
                         <div class="form-group">
-                            <label for="phone">Phone (optional)</label>
-                            <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
+                            <label for="website">Your Company Website</label>
+                            <input type="url" id="website" name="website" placeholder="https://yourcompany.com">
+                            <small style="color: rgba(255,255,255,0.5); font-size: 0.8rem;">We use this to match your brand colors and style.</small>
                         </div>
                         <div class="form-group">
                             <label for="business">Type of Business</label>
@@ -86,10 +87,31 @@
                             </select>
                         </div>
                         <div class="form-group">
-                            <label for="message">Tell us about your scheduling headaches</label>
-                            <textarea id="message" name="message" rows="4" placeholder="How do you currently handle shift scheduling? What's the biggest pain point?"></textarea>
+                            <label for="shift-types">What types of shifts do you run?</label>
+                            <input type="text" id="shift-types" name="shift-types" placeholder="e.g. Evening events, weekend gigs, on-call, recurring weekly">
                         </div>
-                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                        <div class="form-group">
+                            <label for="required-fields">What info matters for each shift?</label>
+                            <textarea id="required-fields" name="required-fields" rows="3" placeholder="e.g. Location, pay rate, dress code, role type, start/end time, number of workers needed..."></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="current-method">How do you currently coordinate scheduling?</label>
+                            <select id="current-method" name="current-method">
+                                <option value="">Select...</option>
+                                <option value="group-text">Group texts / messaging apps</option>
+                                <option value="phone-calls">Phone calls</option>
+                                <option value="email">Email</option>
+                                <option value="spreadsheet">Spreadsheets</option>
+                                <option value="scheduling-app">Another scheduling app</option>
+                                <option value="mixed">A mix of everything</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Additional details or requests</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Anything else you'd like us to know? Specific features you want, how you'd like the board to look, special requirements..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Get My Free Preview</button>
                     </form>
                 </div>
 
@@ -101,22 +123,22 @@
                             <div class="next-step">
                                 <div class="next-step-num">1</div>
                                 <div>
-                                    <strong>We reply within 24 hours</strong>
-                                    <p>Usually much sooner. We'll reach out to schedule a quick call.</p>
+                                    <strong>We build your preview</strong>
+                                    <p>Within 24 hours you'll get a link to your custom board &mdash; branded with your colors and fields.</p>
                                 </div>
                             </div>
                             <div class="next-step">
                                 <div class="next-step-num">2</div>
                                 <div>
-                                    <strong>20-minute discovery call</strong>
-                                    <p>We learn how your business works and what you need in your board.</p>
+                                    <strong>You test it free</strong>
+                                    <p>Click around, try posting shifts, see how it works. No cost, no obligation.</p>
                                 </div>
                             </div>
                             <div class="next-step">
                                 <div class="next-step-num">3</div>
                                 <div>
-                                    <strong>Your board is live in days</strong>
-                                    <p>We build it, brand it, set up your team, and hand you the keys.</p>
+                                    <strong>You approve, then pay</strong>
+                                    <p>Only $40 setup after you say yes. Then just $20/month for the first 6 months.</p>
                                 </div>
                             </div>
                         </div>
