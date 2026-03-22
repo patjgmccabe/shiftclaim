@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact â ShiftClaim</title>
+    <meta name="description" content="Get in touch to set up your custom ShiftClaim scheduling board. Most boards are live within a week.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">&#9201;</span> ShiftClaim
+            </a>
+            <button class="mobile-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="how-it-works.html">How It Works</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="contact.html" class="btn btn-nav active">Get Started</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <header class="page-hero">
+        <div class="container">
+            <p class="hero-badge">Let's Build Yours</p>
+            <h1>Get in Touch</h1>
+            <p class="hero-subtitle">Tell us a little about your business and we'll reach out to set up a quick call.</p>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="container">
+            <div class="contact-grid fade-in">
+
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required placeholder="John Smith">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="john@company.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone (optional)</label>
+                            <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
+                        </div>
+                        <div class="form-group">
+                            <label for="business">Type of Business</label>
+                            <select id="business" name="business" required>
+                                <option value="">Select your industry...</option>
+                                <option value="valet">Valet Company</option>
+                                <option value="catering">Catering / Event Staffing</option>
+                                <option value="security">Event Security</option>
+                                <option value="entertainment">DJ / Entertainment</option>
+                                <option value="photography">Photography</option>
+                                <option value="healthcare">Home Healthcare</option>
+                                <option value="cleaning">Cleaning Services</option>
+                                <option value="pet-services">Pet Services</option>
+                                <option value="tutoring">Tutoring</option>
+                                <option value="officials">Athletic Officials</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="team-size">How many workers on your team?</label>
+                            <select id="team-size" name="team-size">
+                                <option value="">Select...</option>
+                                <option value="1-10">1 - 10</option>
+                                <option value="11-25">11 - 25</option>
+                                <option value="26-50">26 - 50</option>
+                                <option value="50+">50+</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Tell us about your scheduling headaches</label>
+                            <textarea id="message" name="message" rows="4" placeholder="How do you currently handle shift scheduling? What's the biggest pain point?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="contact-sidebar">
+                    <div class="sidebar-card">
+                        <h3>What Happens Next</h3>
+                        <div class="next-steps">
+                            <div class="next-step">
+                                <div class="next-step-num">1</div>
+                                <div>
+                                    <strong>We reply within 24 hours</strong>
+                                    <p>Usually much sooner. We'll reach out to schedule a quick call.</p>
+                                </div>
+                            </div>
+                            <div class="next-step">
+                                <div class="next-step-num">2</div>
+                                <div>
+                                    <strong>20-minute discovery call</strong>
+                                    <p>We learn how your business works and what you need in your board.</p>
+                                </div>
+                            </div>
+                            <div class="next-step">
+                                <div class="next-step-num">3</div>
+                                <div>
+                                    <strong>Your board is live in days</strong>
+                                    <p>We build it, brand it, set up your team, and hand you the keys.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-card">
+                        <h3>Prefer to Email Directly?</h3>
+                        <p>Reach us anytime at:</p>
+                        <a href="mailto:hello@shiftclaim.com" class="email-link">hello@shiftclaim.com</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">&#9201;</span> ShiftClaim
+                    <p class="footer-tagline">Custom shift scheduling boards for businesses that run on people.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Pages</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="how-it-works.html">How It Works</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:hello@shiftclaim.com">hello@shiftclaim.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ShiftClaim. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
