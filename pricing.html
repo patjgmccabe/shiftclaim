@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pricing &mdash; ShiftClaim</title>
+    <title>Pricing — ShiftClaim</title>
     <meta name="description" content="Simple, transparent pricing. $40 setup after approval, then affordable monthly plans starting at $20/month. Preview your board free before you pay.">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,57 +34,64 @@
         <div class="container">
             <p class="hero-badge">Simple &amp; Transparent</p>
             <h1>Pricing That Makes Sense</h1>
-            <p class="hero-subtitle">Preview your board free. Only pay after you approve. No surprise fees, no long-term contracts.</p>
+            <p class="hero-subtitle">Preview your board free. Only pay after you approve. Everything you need, in one straightforward plan.</p>
         </div>
     </header>
 
-    <!-- Pricing Cards -->
+    <!-- Pricing Card -->
     <section class="section">
         <div class="container">
-            <div class="pricing-grid fade-in">
+            <div class="pricing-grid pricing-grid--single fade-in">
 
-                <div class="pricing-card">
+                <div class="pricing-card featured" style="max-width: 560px; margin: 0 auto;">
                     <div class="pricing-card-header">
-                        <h3>Setup</h3>
-                        <p class="pricing-desc">One-time fee after approval</p>
+                        <h3>Everything Included</h3>
+                        <p class="pricing-desc">One plan. No surprises.</p>
                     </div>
-                    <div class="pricing-amount">
-                        <span class="price">$40</span>
-                        <span class="price-period">one-time</span>
+
+                    <!-- Step 1: Setup -->
+                    <div style="background: rgba(255,255,255,0.1); border-radius: 10px; padding: 1rem 1.25rem; margin-bottom: 1rem;">
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <div>
+                                <span style="font-weight: 700; font-size: 1rem;">Step 1 &mdash; One-Time Setup Fee</span>
+                                <p style="margin: 0.2rem 0 0; font-size: 0.85rem; opacity: 0.8;">Paid once after you approve your free preview</p>
+                            </div>
+                            <span style="font-size: 1.6rem; font-weight: 800; white-space: nowrap; margin-left: 1rem;">$40</span>
+                        </div>
                     </div>
+
+                    <!-- Step 2: Monthly -->
+                    <div style="background: rgba(255,255,255,0.1); border-radius: 10px; padding: 1rem 1.25rem; margin-bottom: 0.5rem;">
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <div>
+                                <span style="font-weight: 700; font-size: 1rem;">Step 2 &mdash; Monthly Subscription</span>
+                                <p style="margin: 0.2rem 0 0; font-size: 0.85rem; opacity: 0.8;">First 6 months &mdash; 50% off for new customers</p>
+                            </div>
+                            <div style="text-align: right; margin-left: 1rem; white-space: nowrap;">
+                                <span style="font-size: 1.6rem; font-weight: 800;">$20</span>
+                                <span style="font-size: 0.85rem; opacity: 0.8;">/mo</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- After 6 months -->
+                    <p style="text-align: center; font-size: 0.9rem; opacity: 0.75; margin-bottom: 1.5rem;">
+                        After 6 months: <strong style="opacity: 1;">$40/month</strong> or save with <strong style="opacity: 1;">$400/year</strong>
+                    </p>
+
                     <ul class="pricing-features">
-                        <li>&#10003; Free preview before you pay</li>
+                        <li>&#10003; Free preview before you pay a cent</li>
                         <li>&#10003; Custom branded scheduling board</li>
                         <li>&#10003; Your own domain (yourcompanyshiftclaim.com)</li>
                         <li>&#10003; Admin &amp; worker login system</li>
                         <li>&#10003; Fields customized to your business</li>
                         <li>&#10003; Mobile-optimized design</li>
-                        <li>&#10003; Team accounts created</li>
-                    </ul>
-                    <a href="contact.html" class="btn btn-primary btn-full">Get Your Free Preview</a>
-                </div>
-
-                <div class="pricing-card featured">
-                    <div class="pricing-badge">Best Value</div>
-                    <div class="pricing-card-header">
-                        <h3>Monthly</h3>
-                        <p class="pricing-desc">Ongoing support &amp; hosting</p>
-                    </div>
-                    <div class="pricing-amount">
-                        <span class="price">$20</span>
-                        <span class="price-period">/month for first 6 months</span>
-                    </div>
-                    <p style="color: rgba(255,255,255,0.7); text-align: center; margin-top: -0.5rem; margin-bottom: 1rem; font-size: 0.9rem;">Then $40/month or $400/year</p>
-                    <ul class="pricing-features">
                         <li>&#10003; Domain hosting &amp; renewal included</li>
                         <li>&#10003; Database hosting &amp; backups</li>
                         <li>&#10003; Adding new team members</li>
-                        <li>&#10003; Field &amp; layout adjustments</li>
-                        <li>&#10003; Troubleshooting &amp; bug fixes</li>
-                        <li>&#10003; Minor design tweaks</li>
-                        <li>&#10003; Priority email support</li>
+                        <li>&#10003; Troubleshooting, tweaks &amp; priority support</li>
                     </ul>
-                    <a href="contact.html" class="btn btn-primary btn-full">Get Started</a>
+                    <a href="contact.html" class="btn btn-primary btn-full">Get Your Free Preview</a>
                 </div>
 
             </div>
@@ -227,4 +234,4 @@
 
     <script src="script.js"></script>
 </body>
-</html>
+                        </html>
