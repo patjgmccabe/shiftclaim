@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Get Started &mdash; ShiftClaim</title>
+    <title>Get Started — ShiftClaim</title>
     <meta name="description" content="Fill out this form and get a free preview of your custom ShiftClaim scheduling board within 24 hours. No payment required until you approve.">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,7 +34,7 @@
         <div class="container">
             <p class="hero-badge">Free Preview &mdash; No Commitment</p>
             <h1>Get Your Free Preview</h1>
-            <p class="hero-subtitle">Tell us about your business and we'll build you a custom preview board within 24 hours &mdash; completely free.</p>
+            <p class="hero-subtitle">Tell us about your business and we'll build you a custom preview board within 24 hours &mdash; completely free. Not happy with it? Request changes and we'll send you a new preview. We won't ask you to pay until you're fully satisfied.</p>
         </div>
     </header>
 
@@ -61,7 +61,7 @@
                         </div>
                         <div class="form-group">
                             <label for="business">Type of Business</label>
-                            <select id="business" name="business" required>
+                            <select id="business" name="business" required onchange="document.getElementById('other-industry-group').style.display = this.value === 'other' ? 'block' : 'none'">
                                 <option value="">Select your industry...</option>
                                 <option value="valet">Valet Company</option>
                                 <option value="catering">Catering / Event Staffing</option>
@@ -76,6 +76,10 @@
                                 <option value="other">Other</option>
                             </select>
                         </div>
+                        <div class="form-group" id="other-industry-group" style="display: none;">
+                            <label for="other-industry">Please describe your industry</label>
+                            <input type="text" id="other-industry" name="other-industry" placeholder="e.g. Landscaping, food truck staffing, film crew...">
+                        </div>
                         <div class="form-group">
                             <label for="team-size">How many workers on your team?</label>
                             <select id="team-size" name="team-size">
@@ -85,10 +89,6 @@
                                 <option value="26-50">26 - 50</option>
                                 <option value="50+">50+</option>
                             </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="shift-types">What types of shifts do you run?</label>
-                            <input type="text" id="shift-types" name="shift-types" placeholder="e.g. Evening events, weekend gigs, on-call, recurring weekly">
                         </div>
                         <div class="form-group">
                             <label for="required-fields">What info matters for each shift?</label>
@@ -130,15 +130,15 @@
                             <div class="next-step">
                                 <div class="next-step-num">2</div>
                                 <div>
-                                    <strong>You test it free</strong>
-                                    <p>Click around, try posting shifts, see how it works. No cost, no obligation.</p>
+                                    <strong>Test it &amp; request changes</strong>
+                                    <p>Click around, try it out &mdash; completely free. Want something different? Just ask and we'll send you a revised preview. We go back and forth until it's exactly right.</p>
                                 </div>
                             </div>
                             <div class="next-step">
                                 <div class="next-step-num">3</div>
                                 <div>
-                                    <strong>You approve, then pay</strong>
-                                    <p>Only $40 setup after you say yes. Then just $20/month for the first 6 months.</p>
+                                    <strong>Pay only when you're happy</strong>
+                                    <p>Once you're satisfied, the $40 setup fee kicks in. Then just $20/month for your first 6 months.</p>
                                 </div>
                             </div>
                         </div>
@@ -187,4 +187,4 @@
 
     <script src="script.js"></script>
 </body>
-</html>
+                                </html>
